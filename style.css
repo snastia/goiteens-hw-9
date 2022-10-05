@@ -180,18 +180,16 @@ height: 260px;
     height: 12px;
     color: var(--secondary-text-color);
 }
-.email:hover,
-.email:focus{
+.email:hover::before{
     color: var(--accent-color);
 }
 .telephone{
     width: 10px;
     height: 16px;
-margin-left: 30px;
-margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
 
 }
-.telephone:hover,
-.telephone:focus{
+.telephone:hover::before{
     color: var(--accent-color);
 }
