@@ -175,3 +175,23 @@ height: 260px;
 .section.hero{
     text-align: center;
 }
+.email{
+    width: 16px;
+    height: 12px;
+    color: var(--secondary-text-color);
+}
+.email:hover,
+.email:focus{
+    color: var(--accent-color);
+}
+.telephone{
+    width: 10px;
+    height: 16px;
+margin-left: 30px;
+margin-right: 10px;
+
+}
+.telephone:hover,
+.telephone:focus{
+    color: var(--accent-color);
+}
