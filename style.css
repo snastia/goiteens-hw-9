@@ -188,8 +188,43 @@ height: 260px;
     height: 16px;
     margin-left: 30px;
     margin-right: 10px;
-
 }
 .telephone:hover::before{
     color: var(--accent-color);
 }
+.link{
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffff;
+    color: #AFB1B8;
+}
+.link:hover,
+.link:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 12px;
+    fill: currentColor;
+}
+.item{
+    width: 20px;
+    height: 20px;
+}
+.list{
+    display: flex;
+}
+.telephone2{
+    color: var(--secondary-text-color);
+}
+.adderess{
+    color: #FFFFFF;
+}
+
